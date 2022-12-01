@@ -1,9 +1,12 @@
+
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #D5E1EF;
     height: 100vh;
+
 }
 
 .main-div {

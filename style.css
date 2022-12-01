@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5E1EF;
+    height: 100vh;
+}
+
+.main-div {
+    position: absolute;
+    width: 20rem;
+    height: 31.06rem;
+    background-color: #ffffff;
+    box-shadow: 25px 25px 25px 25px rgba(26, 0, 132, 0.048);
+    border-radius: 1.25rem;
+}
+
+
+.qr-code>img {
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10px;
+    left: 1rem;
+    top: 1rem;
+}
+
+.title {
+    position: relative;
+    top: 1.5rem;
+    height: 56px;
+    width: 288px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    left: 1rem;
+}
+
+.description {
+    position: relative;
+    color: grey;
+    font-family: Outfit;
+    font-size: 1rem;
+    letter-spacing: 0.1875px;
+    text-align: center;
+    height: 3.5rem;
+    width: 16rem;
+    left: 2rem;
+    top: 2.5rem;
+}
